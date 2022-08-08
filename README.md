@@ -12,7 +12,7 @@ A folder called src was created in the project, divided into:
 - assets: we find images and animations used in the app
 - components: the components reused in the project have been created.
 In particular, the Basescreen was created which serves to differentiate the safe area with the rest of the app screen (therefore Header with status bar) and then divide the screen into two main parts, header and content.
-- contexts: a folder where I created a context to pass the info (owner and repo) from the home screen to the stargazers screen. I could use react native navigation, but I preferred to use the contexts approach for the advantages we have (for example we don't have problems with drop drilling)
+- contexts: a folder where I created a context to pass the info (owner and repo) from the home screen to the stargazers screen. I could use react native navigation, but I preferred to use the contexts approach for the advantages we have (for example we don't have problems with prop drilling)
 - models: are the objects we use both in input and output.
 - navigation: where the navigation stack of the app screens has been defined.
 - screen: the app screens.
